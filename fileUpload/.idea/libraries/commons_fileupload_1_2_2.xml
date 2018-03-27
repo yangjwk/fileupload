@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="commons-fileupload-1.2.2">
+    <CLASSES>
+      <root url="jar://F:/BaiduNetdiskDownload/文件上传/资料/02.代码/itcastupload/WebRoot/WEB-INF/lib/commons-fileupload-1.2.2.jar!/" />
+      <root url="jar://F:/BaiduNetdiskDownload/文件上传/资料/02.代码/itcastupload/WebRoot/WEB-INF/lib/commons-io-2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
