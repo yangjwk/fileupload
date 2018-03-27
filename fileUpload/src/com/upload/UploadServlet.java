@@ -47,9 +47,12 @@ public class UploadServlet extends HttpServlet {
                     //文件
                     //获取文件名称
                     String name = item.getName();
-                    InputStream is = item.getInputStream();
-                    //保存文件
-                    FileUtils.copyInputStreamToFile(is,new File(filepath+"/"+name));
+                    if(!"".equals(name) && name != null){
+                        InputStream is = item.getInputStream();
+                        //保存文件
+                        FileUtils.copyInputStreamToFile(is,new File(filepath+"/"+name));
+                    }
+
                 }
             }
         }catch (FileUploadException e){
